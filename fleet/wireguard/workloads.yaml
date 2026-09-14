@@ -3,8 +3,7 @@
   "kind": "Deployment",
   "metadata": {
     "annotations": {
-      "deployment.kubernetes.io/revision": "1",
-      "field.cattle.io/publicEndpoints": "[{\"nodeName\":\":spainip-k3s\",\"addresses\":[\"2a01:4f9:4b:558f::2\"],\"port\":51820,\"protocol\":\"UDP\",\"podName\":\"wireguard:wg-easy-5566fd4f56-rkr8w\",\"allNodes\":false},{\"nodeName\":\":spainip-k3s\",\"addresses\":[\"2a01:4f9:4b:558f::2\"],\"port\":51821,\"protocol\":\"TCP\",\"podName\":\"wireguard:wg-easy-5566fd4f56-rkr8w\",\"allNodes\":false}]"
+      "deployment.kubernetes.io/revision": "1"
     },
     "name": "wg-easy",
     "namespace": "wireguard"
