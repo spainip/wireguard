@@ -1,0 +1,5 @@
+defaultNamespace: wireguard
+kustomize:
+  dir: .
+helm:
+  takeOwnership: true
